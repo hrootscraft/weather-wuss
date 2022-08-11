@@ -1,5 +1,8 @@
 import geocode from "./utils/geocode.js";
 import forecast from "./utils/forecast.js";
+import dotenv from "dotenv";
+
+dotenv.config();
 
 const locn = process.argv[2];
 if (locn) {
